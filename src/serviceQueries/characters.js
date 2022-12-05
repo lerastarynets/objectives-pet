@@ -8,7 +8,10 @@ export const charactersApi = createApi({
     reducerPath: 'charactersApi',
     endpoints: (builder) => ({
         getCharacters: builder.query({
-            query: () => ({ url: '/character', method: 'GET' }),
+            query: ({ pageNumber }) => {
+                const params = `?page=${pageNumber}`;
+                return { url: `/character/${params}`, method: 'GET' };
+            },
         }),
     }),
 });
