@@ -7,7 +7,7 @@ const RickAndMorty = () => {
     const [pageNumber, setPageNumber] = useState(1);
     const { data = { info: {}, results: [] } } = useGetCharactersQuery({ pageNumber }, { refetchOnMountOrArgChange: true });
     return (
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center items-center p-8">
             <Paginator pageNumber={pageNumber} setPageNumber={setPageNumber} />
             <SinglePage data={data} />
         </div>
