@@ -2,7 +2,7 @@ import { Suspense } from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { Header } from '../components/common/header';
 import { MainPage } from '../components/mainPage';
-import { RickAndMorty } from '../components/rickAndMorty';
+import { Characters } from '../components/characters';
 import './App.css';
 
 const App = () => (
@@ -17,7 +17,7 @@ const App = () => (
                     path="/characters"
                     element={
                         <Suspense fallback={<div>Wait...</div>}>
-                            <RickAndMorty />
+                            <Characters />
                         </Suspense>
                     }
                 />

@@ -3,7 +3,7 @@ import { useGetCharactersQuery } from '../../serviceQueries/characters';
 import { Paginator } from '../common/paginator';
 import { SinglePage } from './singlePage';
 
-const RickAndMorty = () => {
+const Characters = () => {
     const [pageNumber, setPageNumber] = useState(1);
     const { data = { info: {}, results: [] } } = useGetCharactersQuery({ pageNumber }, { refetchOnMountOrArgChange: true });
     return (
@@ -14,4 +14,4 @@ const RickAndMorty = () => {
     );
 };
 
-export default RickAndMorty;
+export default Characters;
