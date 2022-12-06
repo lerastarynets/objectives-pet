@@ -1,6 +1,7 @@
 import { Suspense } from 'react';
-import { Route, Routes } from 'react-router-dom';
+import { Navigate, Route, Routes } from 'react-router-dom';
 import { Header } from '../components/common/header';
+import { MainPage } from '../components/mainPage';
 import { RickAndMorty } from '../components/rickAndMorty';
 import './App.css';
 
@@ -9,6 +10,8 @@ const App = () => (
         <Header />
         <div className="pt-16">
             <Routes>
+                <Route path="/" element={<Navigate to="/main" replace />} />
+                <Route exact path="/main" element={<MainPage />} />
                 <Route
                     exact
                     path="/characters"
