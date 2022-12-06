@@ -4,6 +4,7 @@ import { Header } from '../components/common/header';
 import { MainPage } from '../components/mainPage';
 import { Characters } from '../components/characters';
 import './App.css';
+import { NotFoundPage } from '../components/notFoundPage';
 
 const App = () => (
     <div>
@@ -21,7 +22,7 @@ const App = () => (
                         </Suspense>
                     }
                 />
-                <Route path="*" element={<div>404 not found</div>} />
+                <Route path="*" element={<NotFoundPage />} />
             </Routes>
         </div>
     </div>
