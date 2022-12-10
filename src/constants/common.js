@@ -5,6 +5,7 @@ export const ROUTES = {
     CHARACTERS: '/characters',
     DIALOGS: '/cc',
 };
+
 export const HEADER_LINKS = [
     { TITLE: 'Main page', PATH: ROUTES.MAIN_PAGE },
     { TITLE: 'Characters list', PATH: ROUTES.CHARACTERS },
@@ -13,3 +14,9 @@ export const HEADER_LINKS = [
 
 export const DEFAULT_PORTION_NUMBER = 1;
 export const PORTION_SIZE = 5;
+
+export const CHARACTERS_INFO_SECTIONS = {
+    NAME: 'Name',
+    GENDER: 'Gender',
+    STATUS: 'Status',
+};

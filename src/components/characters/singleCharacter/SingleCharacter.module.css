@@ -1,0 +1,19 @@
+.name {
+    grid-area: name;
+}
+.image {
+    grid-area: image;
+}
+.status {
+    grid-area: status;
+}
+.gender {
+    grid-area: gender;
+}
+
+.characterContainer {
+    grid-template-areas:
+        'name name name'
+        'image image image'
+        'gender . status';
+}
