@@ -11,7 +11,7 @@ const App = () => (
         <Header />
         <div className="pt-16">
             <Routes>
-                <Route path="/" element={<Navigate to="/main" replace />} />
+                <Route exact path="/objectives-pet" element={<Navigate to="/main" replace />} />
                 <Route exact path="/main" element={<MainPage />} />
                 <Route
                     exact
