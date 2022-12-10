@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/objectives-pet/static/css/main.a3729e30.css",
-    "main.js": "/objectives-pet/static/js/main.6c7d02a6.js",
+    "main.css": "/objectives-pet/static/css/main.e1cd3df7.css",
+    "main.js": "/objectives-pet/static/js/main.7686461e.js",
     "static/media/RickAndMortyLogo.png": "/objectives-pet/static/media/RickAndMortyLogo.02532b76b5672fbd43b0.png",
     "index.html": "/objectives-pet/index.html",
-    "main.a3729e30.css.map": "/objectives-pet/static/css/main.a3729e30.css.map",
-    "main.6c7d02a6.js.map": "/objectives-pet/static/js/main.6c7d02a6.js.map"
+    "main.e1cd3df7.css.map": "/objectives-pet/static/css/main.e1cd3df7.css.map",
+    "main.7686461e.js.map": "/objectives-pet/static/js/main.7686461e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3729e30.css",
-    "static/js/main.6c7d02a6.js"
+    "static/css/main.e1cd3df7.css",
+    "static/js/main.7686461e.js"
   ]
 }
