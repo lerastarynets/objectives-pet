@@ -20,3 +20,9 @@ export const CHARACTERS_INFO_SECTIONS = {
     GENDER: 'Gender',
     STATUS: 'Status',
 };
+
+export const CHARACTERS_STATUSES = {
+    ALIVE: 'Alive',
+    ONLINE: 'Online',
+    OFFLINE: 'Offline',
+};
